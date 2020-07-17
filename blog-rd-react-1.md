@@ -68,14 +68,16 @@ class HolaMundo extends React.Component {
 
     render() {
         return (
-            <button onClick={() => this.toggleMostrarMensaje(true) }>
-                Mostrar mensaje
-            </button>
-            <button onClick={() => this.toggleMostrarMensaje(false) }>
-                Ocultar mensaje
-            </button>
             <div>
-                { this.state.mostrarMensaje && this.props.mensaje }
+                <button onClick={() => this.toggleMostrarMensaje(true) }>
+                Mostrar mensaje
+                </button>
+                <button onClick={() => this.toggleMostrarMensaje(false) }>
+                    Ocultar mensaje
+                </button>
+                <div>
+                    { this.state.mostrarMensaje && this.props.mensaje }
+                </div>
             </div>
         );
     }
@@ -91,6 +93,8 @@ El componente ahora tiene dos botones que actualizan su estado cambiando el valo
 variable `mostrarMensaje`, por lo que cuando se le de clic a alguno de los botones,
 React actualizará el componente y volverá a renderizarlo en la pantalla, mostrando el 
 nuevo resultado.
+
+![resultado](https://media.giphy.com/media/YMv2WragpaRFTiq2Uq/giphy.gif "Resultado")
 
 ### Cosas interesantes sobre React
 
@@ -168,4 +172,27 @@ Escribiendo [http://localhost:3000](http://localhost:3000) en tu navegador, podr
 la aplicación en acción. Si haces algún cambio en el código, React lo renderizará en la 
 pantalla de inmediato.
 
+![app](https://media.giphy.com/media/KfNisx1amBSOXTcz3g/giphy.gif "app")
+
 ¡Listo!, has creado tu primer proyecto con React.
+
+## Conclusiones
+
+React es un framework que nos ayuda a desarrollar aplicaciones en base a componentes interactivos, 
+que son reutilizables y que nos permiten crear interfaces de usuario dinámicas. Como se mencionó
+anteriormente, con el uso de componentes encapsulados, la depuración es mucho más sencilla y certera, 
+además de que ahorras bastante tiempo de desarrollo ya que puedes visualizar inmediatamente en la pantalla 
+los cambios que hagas a tu código.
+
+Otra ventaja de React es que es un framework en el que puedes trabajar tanto para plataformas
+web como para plataformas móvil, haciendo uso de React Native, que en su mayoría, están estructurados
+de la misma manera, por lo que incluso puedes compartir componentes entre ambos.
+
+Como viste, es muy sencillo aprender React y es un lenguaje altamente demandado por las 
+empresas de desarrollo de software hoy en día.
+
+
+## ¿Tienes alguna pregunta o sugerencia?
+
+No dudes en escribirme a **@leonardo_lib** o **@RocktechRD** en twitter, o a mi correo **leonardo.lira@rocktech.mx**.
+
