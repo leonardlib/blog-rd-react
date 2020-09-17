@@ -125,7 +125,7 @@ npx create-react-app my-app
 ### Estructura del proyecto
 
 Verás que se creara una carpeta con el nombre del proyecto y tendrá una estructura 
-similar a la siguiente:
+similar a esta:
 
 ```
 my-app/
@@ -178,7 +178,7 @@ pantalla de inmediato.
 
 ## Conclusiones
 
-React es un framework que nos ayuda a desarrollar aplicaciones en base a componentes interactivos, 
+React es un framework que nos ayuda a desarrollar aplicaciones con base en componentes interactivos, 
 que son reutilizables y que nos permiten crear interfaces de usuario dinámicas. Como se mencionó
 anteriormente, con el uso de componentes encapsulados, la depuración es mucho más sencilla y certera, 
 además de que ahorras bastante tiempo de desarrollo ya que puedes visualizar inmediatamente en la pantalla 

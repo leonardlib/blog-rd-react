@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HolaMundo from "./components/holaMundo";
+import Boton from "./components/boton";
+import BotonPrimario from "./components/boton-primario/botonPrimario";
+import BotonSecundario from "./components/boton-secundario/botonSecundario";
+import Imagen from "./components/imagen";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <HolaMundo mensaje="¡Hola mundo!" />
+            <br/>
+            <Boton title="Clic uno" />
+            <Boton title="Clic dos" />
+            <Boton title="Clic tres" />
+            <br/>
+            <br/>
+            <BotonPrimario />
+            <br/>
+            <br/>
+            <BotonSecundario />
+            <br/>
+            <br/>
+            <Imagen />
+        </div>
+    );
 }
 
 export default App;

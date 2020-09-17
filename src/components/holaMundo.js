@@ -10,7 +10,7 @@ class HolaMundo extends React.Component {
       this.setState({
           mostrarMensaje: mostrar
       });
-  }    
+  }
 
   render() {
       return (
@@ -27,6 +27,6 @@ class HolaMundo extends React.Component {
           </div>
       );
   }
-};
+}
 
 export default HolaMundo;
