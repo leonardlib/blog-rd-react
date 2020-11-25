@@ -144,7 +144,7 @@ const UserForm = () => {
 ```
 
 Ahora, escribiremos la función para manipular el clic en el botón para 
-guardar la información. En este ejemplo, guardaremos la información el localStorage
+guardar la información. En este ejemplo, guardaremos la información en localStorage
 para después mostrarla como una lista.
 
 ```javascript
